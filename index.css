@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'Overpass Regular';
+    src: url('fonts/Overpass-Regular.ttf');
+}
+@font-face {
+    font-family: 'Overpass bold';
+    src: url('fonts/Overpass-Bold.ttf');
+}
+@font-face {
+    font-family: 'Overpass semibold';
+    src: url('fonts/Overpass-SemiBold.ttf');
+}
+
+
+@font-face {
+    font-family: 'Overpass light';
+    src: url('fonts/Overpass-Light.ttf');
+}
+
+
+body {
+    margin: 0;
+    background-color: #121417;
+    color: white;
+    display: grid;
+    justify-content: center;
+    align-items:center;
+}
+
+main {
+     margin-top:    100px;
+    background-color: #252d37ff;
+    border-radius: 15px;
+    padding:30px ;
+    width: fit-content;
+    
+    justify-content: center;
+    
+}
+
+.starDiv {
+    background-color: rgb(45, 53, 63);
+    width: 50px;
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+h1 {
+    font-family: 'Overpass bold';
+
+}
+
+main p {
+    color: #959eacff;
+    width: 350px;
+        font-family: 'Overpass Regular';
+
+}
+form {
+    display: grid;
+    gap: 20px;
+}
+.numberBtn {
+    display: flex;
+    justify-content: space-evenly;
+}
+input {
+    background-color: rgb(45, 53, 63);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    color: #959eacff;
+    font-family: 'Overpass bold';
+        cursor:pointer;
+
+
+
+}
+input:hover {
+    background-color: white;
+    color:#121417 ;
+}
+/* input:active{
+    background-color:hsl(25, 97%, 53%); 
+} */
+button {
+    background-color: #fb7413;
+    color: #121417;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 350px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    font-family: 'Overpass bold';
+    cursor:pointer;
+    
+
+}
+button:hover {
+    background-color: white;
+}
+
+
+.successDiv {
+    margin-top: 100px;
+    background: linear-gradient(to top,rgb(31, 38, 46) 50%, rgb(42, 50, 59));
+    display: flex;
+    border-radius: 20px;
+    padding: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    gap: 20px;
+}
+
+.successDiv img {
+    /* margin-left: 50px; */
+
+}
+
+
+.successDiv div {
+    font-family: 'Overpass semibold';
+
+    color: hsl(25, 75%, 43%);
+    background-color: rgb(45, 54, 65);
+    /* height: 20px; */
+    width: 200px;
+    padding:10px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+h2 {
+    font-family: overpass bold;
+
+}
+
+.successDiv p {
+    font-family: overpass regular;
+    color:#959eacff;
+    margin-top: -10px;
+
+}
+
+
+
+/* 
+@media screen and (max-width: 450px ){
+    main {
+        margin: 15px
+    }
+    
+} */
