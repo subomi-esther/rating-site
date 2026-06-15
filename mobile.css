@@ -25,14 +25,20 @@ body {
     display: grid;
     justify-content: center;
     align-items:center;
-    padding: 200px 25px 200px 25px;
+    padding: 10px;
+    /* padding: 200px 25px 200px 25px; */
+    width: 100%;
 }
 
 main {
     /* margin: 50px 10px 50px 10px; */
+    position: fixed;
+    top: 20%;
     background-color: #252d37ff;
     border-radius: 15px;
     padding:20px ;
+    width: 100%;
+    /* width: 100%; */
     /* width: fit-content; */
     justify-content: center;
     
